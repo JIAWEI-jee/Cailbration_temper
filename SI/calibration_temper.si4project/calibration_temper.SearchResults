@@ -1,0 +1,27 @@
+---- lcd_set Matches (26 in 2 files) ----
+lcd_clear_all in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 	lcd_set.gap_display = Clear_lcd;
+lcd_clear_all in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 	lcd_set.time_display = Clear_lcd;
+lcd_error in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 		lcd_set.gap_display = Clear_lcd;
+lcd_error in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 		lcd_set.time_display = Clear_lcd;
+lcd_error in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 		lcd_set.gap_display = Error;
+lcd_display_time in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 	lcd_set.time_display = time;
+lcd_display_gap in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 	lcd_set.gap_display = gap;
+lcd_display_On in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 	lcd_set.gap_display = all_on;
+lcd_display_On in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 	lcd_set.time_display = all_on;
+LCD_Display in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 			set_time ( lcd_set.time_display );
+LCD_Display in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 			set_gap ( lcd_set.gap_display );
+LCD_Display in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 			set_time ( lcd_set.time_display );
+LCD_Display in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 			set_gap ( lcd_set.gap_display );
+LCD_Display in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 			set_time ( lcd_set.time_display );
+LCD_Display in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 			set_gap ( lcd_set.gap_display );
+LCD_Display in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 			set_time ( lcd_set.time_display );
+LCD_Display in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 			set_gap ( lcd_set.gap_display );
+LCD_Display in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 			set_time ( lcd_set.time_display );
+LCD_Display in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 			set_gap ( lcd_set.gap_display );
+LCD_Display in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 			set_time ( lcd_set.time_display );
+LCD_Display in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 			set_gap ( lcd_set.gap_display );
+LCD_Display in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 			set_time ( lcd_set.time_display );
+LCD_Display in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 			set_gap ( lcd_set.gap_display );
+LCD_Display in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 			set_time ( lcd_set.time_display );
+LCD_Display in lcddisplay.c (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) : 			set_gap ( lcd_set.gap_display );
+lcddisplay.h (E:\calibration_pro\calibration_temper\hardware\LCDdisplay) line 49 : extern display_set lcd_set;

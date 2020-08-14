@@ -1,0 +1,99 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.20.0.39
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 123 andy, 123, LIC=FQZII-TQ5LS-3FAIU-SYVTA-B3KT7-B5MRK
+ 
+Tool Versions:
+Toolchain:       MDK51 Professional  Version: 9.56.0.0
+Toolchain Path:  C:\program_list\keil\C51\BIN
+C Compiler:      C51.exe V9.56.0.0
+Assembler:       A51.exe V8.2.5.0
+Linker/Locator:  BL51.exe V6.22
+Library Manager: LIB51.exe V4.30.1.0
+Hex Converter:   OH51.exe V2.7.0.0
+CPU DLL:         S8051.DLL V3.106.0.0
+Dialog DLL:      DP51.DLL V2.63.0.0
+Target DLL:      HC-LINK.dll V3.0.11.0
+Dialog DLL:      TP51.DLL V2.59.0.0
+ 
+<h2>Project:</h2>
+E:\calibration_pro\calibration_temper\Project\Pro.uvproj
+Project File Date:  07/07/2020
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+compiling delay.c...
+compiling adc.c...
+compiling flash.c...
+compiling uart.c...
+compiling key.c...
+compiling pwm.c...
+..\hardware\Pwm\pwm.c(10): warning C280: 'hz': unreferenced local variable
+compiling wdt.c...
+compiling timer.c...
+compiling lcddisplay.c...
+compiling PID.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DETECTION_INPUT_VOLTAGE?ADC
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SET_DEVICE_STATE?FLASH
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?FLAH_SAVE_DATA?FLASH
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SET_PWM?PWM
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD_ERROR?LCDDISPLAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_DISPLAY_TIME?LCDDISPLAY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?PID_OPERATION?PID
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  USART_RX_FLAG
+    MODULE:  .\Objects\main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  USART_RX_FLAG
+    MODULE:  .\Objects\main.obj (MAIN)
+    ADDRESS: 243FH
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  USART_RX_CNT
+    MODULE:  .\Objects\uart.obj (UART)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  USART_RX_BUFFER
+    MODULE:  .\Objects\uart.obj (UART)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  USART_RX_FLAG
+    MODULE:  .\Objects\uart.obj (UART)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  USART_RX_FLAG
+    MODULE:  .\Objects\uart.obj (UART)
+    ADDRESS: 20C9H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  USART_RX_BUFFER
+    MODULE:  .\Objects\uart.obj (UART)
+    ADDRESS: 20D7H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  USART_RX_CNT
+    MODULE:  .\Objects\uart.obj (UART)
+    ADDRESS: 20DBH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  USART_RX_FLAG
+    MODULE:  .\Objects\uart.obj (UART)
+    ADDRESS: 20E1H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  USART_RX_FLAG
+    MODULE:  .\Objects\uart.obj (UART)
+    ADDRESS: 20F0H
+Program Size: data=15.1 xdata=257 code=9397
+creating hex file from ".\Objects\HC_hex"...
+".\Objects\HC_hex" - 0 Error(s), 18 Warning(s).
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
