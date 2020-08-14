@@ -11,9 +11,9 @@ void key_init(void)
 	P0M3 = 0xC0;
 	P0M2 = 0xC0;
 	P2M1 = 0xC0;
-	LED1 = 1;
-	LED2 = 1;
-	LED3 = 1;
+	LED1 = 0;
+	LED2 = 0;
+	LED3 = 0;
 	
 }
 

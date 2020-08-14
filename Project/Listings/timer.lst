@@ -1,4 +1,4 @@
-C51 COMPILER V9.56.0.0   TIMER                                                             08/14/2020 15:18:11 PAGE 1   
+C51 COMPILER V9.56.0.0   TIMER                                                             08/14/2020 16:10:46 PAGE 1   
 
 
 C51 COMPILER V9.56.0.0, COMPILATION OF MODULE TIMER
@@ -62,7 +62,7 @@ line level    source
   50   3            LED2 = !LED2;
   51   3            else if (write_temper_std == 2)
   52   3            {
-C51 COMPILER V9.56.0.0   TIMER                                                             08/14/2020 15:18:11 PAGE 2   
+C51 COMPILER V9.56.0.0   TIMER                                                             08/14/2020 16:10:46 PAGE 2   
 
   53   4              LED1 = 0;
   54   4              LED2 = 1;

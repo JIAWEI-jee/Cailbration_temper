@@ -1,4 +1,4 @@
-C51 COMPILER V9.56.0.0   MAIN                                                              08/14/2020 15:18:09 PAGE 1   
+C51 COMPILER V9.56.0.0   MAIN                                                              08/14/2020 16:10:45 PAGE 1   
 
 
 C51 COMPILER V9.56.0.0, COMPILATION OF MODULE MAIN
@@ -62,7 +62,7 @@ line level    source
   50          /********************************************************/
   51          
   52          static void key_handle ( void )
-C51 COMPILER V9.56.0.0   MAIN                                                              08/14/2020 15:18:09 PAGE 2   
+C51 COMPILER V9.56.0.0   MAIN                                                              08/14/2020 16:10:45 PAGE 2   
 
   53          {
   54   1        u8 key_val = 0;
@@ -126,7 +126,7 @@ line level    source
  112   1      
  113   1      }
  114          
-C51 COMPILER V9.56.0.0   MAIN                                                              08/14/2020 15:18:09 PAGE 3   
+C51 COMPILER V9.56.0.0   MAIN                                                              08/14/2020 16:10:45 PAGE 3   
 
  115          
  116          
@@ -190,7 +190,7 @@ line level    source
  174          
 
 
-C51 COMPILER V9.56.0.0   MAIN                                                              08/14/2020 15:18:09 PAGE 4   
+C51 COMPILER V9.56.0.0   MAIN                                                              08/14/2020 16:10:45 PAGE 4   
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
    CODE SIZE        =    584    ----
